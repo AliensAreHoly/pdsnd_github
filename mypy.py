@@ -18,7 +18,7 @@ def get_filters():
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
     print('Hello! Let\'s explore some US bikeshare data!')
-    # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
+    
     months = ['january', 'february', 'march', 'april', 'may', 'june']
     days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
     
@@ -120,7 +120,7 @@ def time_stats(df):
     print('Most common start hour:', datetime.time(most_common_start_hour))
 
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    
     print('-'*40)
 
 
@@ -142,7 +142,7 @@ def station_stats(df):
     combination_station = (df['Start Station'] + " AND " + df['End Station']).mode()[0]
     print('\nMost frequent combination of start and stop stations:', combination_station)
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    
     print('-'*40)
 
 
@@ -160,7 +160,7 @@ def trip_duration_stats(df):
     mean_travel_time = df['Trip Duration'].mean()
     print ('\nAverage travel time is {} minutes.'.format(round(mean_travel_time/60),2))
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    
     print('-'*40)
 
 
@@ -213,7 +213,7 @@ def user_stats(df):
         
 
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    
     print('-'*40)
 
     
