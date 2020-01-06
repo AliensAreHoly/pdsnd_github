@@ -17,3 +17,5 @@ washington.csv
 Udacity Knowledge Centre: https://knowledge.udacity.com/?nanodegree=c104469e-9f2b-11e8-af91-57d8eb30db69&project=56c7e9e6-496f-11e8-b399-4fbd011ebb66
 
 
+Udacity Student Hub: https://hub.udacity.com/rooms/community:nd104-ent:738040-project-510?contextType=room&selectedMessageId=2413130
+
