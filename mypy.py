@@ -99,7 +99,7 @@ def load_data(city, month, day):
 
 
 def time_stats(df):
-    """Displays statistics on the most frequent times of travel."""
+    """Displays statistics on the most frequent times of travel including the month, day of the week and starting hour."""
 
     print('\nCalculating The Most Frequent Times of Travel...\n')
     start_time = time.time()
@@ -125,7 +125,7 @@ def time_stats(df):
 
 
 def station_stats(df):
-    """Displays statistics on the most popular stations and trip."""
+    """Displays statistics on the most popular start and stop stations and the most common route."""
 
     print('\nCalculating The Most Popular Stations and Trip...\n')
     start_time = time.time()
@@ -165,7 +165,7 @@ def trip_duration_stats(df):
 
 
 def user_stats(df):
-    """Displays statistics on bikeshare users."""
+    """Displays statistics on bikeshare users including gender and date of birth statistics."""
 
     print('\nCalculating User Stats...\n')
     start_time = time.time()
@@ -218,7 +218,7 @@ def user_stats(df):
 
     
 def raw_data(df):
-    """Displays raw Bikeshare data"""
+    """Displays raw Bikeshare data in increments of five trips at a time."""
     display_raw_input = input("\nWould you like to see individual raw data? Enter 'yes' or 'no'\n").strip().lower()
     if display_raw_input in ("yes", "y"):
         i = 0
